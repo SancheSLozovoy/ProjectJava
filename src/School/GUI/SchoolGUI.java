@@ -124,7 +124,7 @@ public class SchoolGUI extends JFrame {
             text.append(student.display()).append("\n");
         }
 
-        text.append("\nРасписание:\n");
+        text.append("\nРасписание: \n");
 
         List<SchoolClass> schoolClasses = school.getSchoolClasses();
 
